@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080b12">
+<meta name="description" content="Portfolio of CS Guruprasad, first-year Data Science engineering student and technology innovator.">
+<title>CS Guruprasad | Portfolio</title>
+<style>
+:root{color-scheme:dark;--bg:#080b12;--panel:#111827;--text:#f4f6fb;--muted:#a5aec0;--accent:#8c9cff;--line:#273147}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit}
+header{padding:20px 7%;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-weight:750;letter-spacing:1px}
+nav{display:flex;gap:20px;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted);font-size:14px}
+nav a:hover,.link:hover{color:var(--accent)}
+main{max-width:1050px;margin:auto;padding:0 24px}
+.hero{padding:100px 0 75px;max-width:800px}
+.eyebrow{color:var(--accent);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(42px,8vw,76px);line-height:1.08;letter-spacing:-2.5px;margin:20px 0}
+h2{font-size:30px;letter-spacing:-.8px;margin:0 0 12px}
+h3{font-size:21px;margin:0 0 10px}
+p{color:var(--muted)}
+.hero p{font-size:18px;max-width:680px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.button{display:inline-block;text-decoration:none;padding:11px 17px;border:1px solid var(--line);border-radius:9px;font-weight:600}
+.primary{background:var(--accent);color:#080b12;border-color:var(--accent)}
+section{padding:55px 0;border-top:1px solid var(--line)}
+.section-intro{max-width:680px;margin-bottom:25px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:24px}
+.tag{display:inline-block;border:1px solid #3a4662;border-radius:20px;padding:4px 10px;margin:5px 5px 0 0;color:#c4caff;font-size:12px}
+.label{color:var(--accent);font-size:12px;text-transform:uppercase;letter-spacing:1.5px;font-weight:700}
+ul{padding-left:20px;color:var(--muted)}
+li{margin:7px 0}
+.contact{background:var(--panel);padding:28px;border:1px solid var(--line);border-radius:15px}
+footer{border-top:1px solid var(--line);padding:25px 7%;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:650px){header{align-items:flex-start;flex-direction:column}nav{gap:13px}.hero{padding:70px 0 50px}.grid{grid-template-columns:1fr}section{padding:40px 0}h1{letter-spacing:-1.5px}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">CS GURUPRASAD<span style="color:#8c9cff">.</span></div>
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+<main>
+<div class="hero">
+<div class="eyebrow">Student · Developer · Innovator</div>
+<h1>Building ideas into meaningful experiences.</h1>
+<p>I'm CS Guruprasad, a first-year B.E. Data Science student at Nagarjuna College of Engineering and Technology. I'm exploring software, human-computer interaction, immersive experiences, and space technology through project-based learning.</p>
+<div class="actions">
+<a class="button primary" href="#projects">Explore my projects ↓</a>
+<a class="button" href="#contact">Connect with me</a>
+</div>
+</div>
 
+<section id="about">
+<div class="label">01 / About</div>
+<h2>Curiosity drives what I build.</h2>
+<div class="section-intro">
+<p>My interests sit at the intersection of software, interactive technology, and practical problem-solving. I enjoy developing concepts, exploring technical feasibility, and turning early ideas into prototypes that can be tested and improved.</p>
+</div>
+<div class="grid">
+<div class="card">
+<h3>Education</h3>
+<p><strong style="color:#f4f6fb">Nagarjuna College of Engineering and Technology</strong><br>B.E. Data Science · First Year</p>
+</div>
+<div class="card">
+<h3>Current focus</h3>
+<p>Learning programming fundamentals while exploring interactive systems, application development, and scientific image processing.</p>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="label">02 / Selected Projects</div>
+<h2>Ideas in progress.</h2>
+<p class="section-intro">These projects represent my current areas of exploration. Proposed features are described as goals, not as completed functionality.</p>
+<div class="grid">
+<article class="card">
+<div class="label">Human–Computer Interaction</div>
+<h3>FLOW</h3>
+<p>A concept for a context-aware control experience that aims to make relevant app and device actions easier to access through a compact, camera-control-inspired interface.</p>
+<div><span class="tag">iOS exploration</span><span class="tag">Interaction design</span><span class="tag">Swift</span></div>
+<p><strong style="color:#f4f6fb">Status:</strong> Prototype exploration.</p>
+</article>
+<article class="card">
+<div class="label">Gesture Interaction</div>
+<h3>SPACE</h3>
+<p>A concept for touchless interaction using hand gestures to control presentations, navigate content, zoom, and explore digital drawing without relying entirely on physical input devices.</p>
+<div><span class="tag">Computer vision</span><span class="tag">Gesture interfaces</span><span class="tag">Prototyping</span></div>
+<p><strong style="color:#f4f6fb">Status:</strong> Concept and feasibility exploration.</p>
+</article>
+<article class="card">
+<div class="label">Space Technology</div>
+<h3>Chandrayaan-2 Image Alignment</h3>
+<p>An exploration of automated lunar image correspondence and alignment across Chandrayaan-2 imaging datasets, with the goal of supporting a reproducible image-processing and GIS workflow.</p>
+<div><span class="tag">Python</span><span class="tag">Image processing</span><span class="tag">QGIS</span></div>
+<p><strong style="color:#f4f6fb">Status:</strong> Pipeline exploration.</p>
+</article>
+<article class="card">
+<div class="label">Immersive Experiences</div>
+<h3>Immersive Music Worlds</h3>
+<p>A proposed interactive environment where people can customise virtual spaces for listening, music practice, and creative exploration, with audio features limited to what the chosen platform supports.</p>
+<div><span class="tag">Immersive design</span><span class="tag">Audio interaction</span><span class="tag">3D environments</span></div>
+<p><strong style="color:#f4f6fb">Status:</strong> Concept development.</p>
+</article>
+</div>
+</section>
+
+<section id="skills">
+<div class="label">03 / Skills & Learning</div>
+<h2>Foundations I'm building.</h2>
+<div class="grid">
+<div class="card">
+<h3>Programming</h3>
+<p>Java · Python · C</p>
+<p>Developing programming fundamentals and practical problem-solving skills.</p>
+</div>
+<div class="card">
+<h3>Technical interests</h3>
+<p>iOS development · Image processing · GIS · Human-computer interaction · Interactive systems</p>
+<p>Exploring these areas through guided learning and personal projects.</p>
+</div>
+</div>
+<p>Certifications, competition results, and achievements can be added here as they are verified.</p>
+</section>
+
+<section id="contact">
+<div class="label">04 / Contact</div>
+<h2>Let's connect.</h2>
+<div class="contact">
+<p>I'm interested in learning from mentors, collaborating with other builders, and exploring opportunities in software and interactive technology.</p>
+<div class="actions">
+<a class="button primary" href="https://github.com/gurutej369-abl">My GitHub</a>
+<a class="button" href="https://github.com/gurutej369-abl?tab=repositories">Project repositories</a>
+</div>
+<p style="font-size:13px">For direct contact, add a professional email address when you're ready to publish it.</p>
+</div>
+</section>
+</main>
+<footer>© 2026 CS Guruprasad · Student Portfolio</footer>
+</body>
+</html>
